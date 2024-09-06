@@ -19,10 +19,10 @@ Replay Consolidation with Label Propagation for Continual Object Detection (RCLP
 
 ## Results
 The following table shows a comparison of RCLPOD with other CL methods for YOLOv8n model
-<img width="750" alt="tab_results" src="https://github.com/user-attachments/assets/22d0180a-d953-42f2-a55a-e4b96d321cc4">
+<img src='./imgs/tab_results.png'  width="650" >
 
 The following Figure shows the results for two specific scenarios: VOC15p1 and COCO40p40.
-<img width="900" alt="img_results" src="https://github.com/user-attachments/assets/7a6210c3-de2e-47a6-9f28-ce965137151e">
+<img src='./imgs/img_results.png'  width="750" >
 
 ## Setup
 In addition to PyTorch, please follow the following steps:
