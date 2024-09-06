@@ -70,4 +70,11 @@ If you find this project useful in your research, please add a star and cite us 
 }
 ```
 
+## Thanks
+
+https://github.com/ultralytics/ultralytics
+
+https://github.com/micromind-toolkit/micromind
+
+
 
