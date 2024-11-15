@@ -11,7 +11,7 @@
 ## Introduction
 Replay Consolidation with Label Propagation for Continual Object Detection (RCLPOD) is a Continual Learning (CL) approach proposed to solve the Catastrophic Forgetting problem in a Class Incremental scenario for Object Detection.
 
-<img src='./imgs/clod_scheme_new.png'  width="850" >
+<img src='./imgs/teddy_bear_scenario.png'  width="850" >
 
 In particular, this method is applied to the well-known YOLOv8 object detector in several CL scenarios built on VOC and MS COCO datasets. This method exploits Label Propagation and replay memory with OCDM selection mechanism.
 
