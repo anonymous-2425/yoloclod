@@ -160,7 +160,7 @@ class YOLOLwF(BaseCLODYOLO):
 
         with torch.no_grad():
             neck_teacher = self.modules["teacher_neck"](*neck_input_teacher)
-            self.output_teacher = self.modules["head"](neck_teacher)
+            self.output_teacher = self.modules["teacher_head"](neck_teacher)
 
         head = self.modules["head"](neck)
 
