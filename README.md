@@ -13,11 +13,7 @@ Replay Consolidation with Label Propagation for Continual Object Detection (RCLP
 
 <img src='./imgs/clod_scheme_new.png'  width="850" >
 
-In particular, this method is applied to the well-known YOLOv8 object detector in several CL scenarios built on VOC and MS COCO datasets. In particular, this method is a composition of several components:
-* A Replay memory, but instead of randomly selecting the images for the memory buffer, we adopt the OCDM selection mechanism.
-* The Label Propagation mechanism which fully leverages the memory buffer potential by integrating both old and new knowledge into its ground truths, thus addressing the interference problems inherent by Replay-based methods.
-* Masking Loss, to further reduce the task interference problem.
-* Feature Distillation, to further decrease the forgetting of old knowledge.
+In particular, this method is applied to the well-known YOLOv8 object detector in several CL scenarios built on VOC and MS COCO datasets. This method exploits Label Propagation and replay memory with OCDM selection mechanism.
 
 <img src='./imgs/RCLPOD_scheme.png'  width="750" >
 
