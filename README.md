@@ -19,10 +19,10 @@ In particular, this method is applied to the well-known YOLOv8 object detector i
 
 ## Results
 The following table shows a comparison of RCLPOD with other CL methods for YOLOv8n model
-<img src='./imgs/results_github.png'  width="550" >
+<img src='./imgs/rclpod_table.png'  width="600" >
 
 The following Figure shows the results for two specific scenarios: VOC15p1 and COCO40p10.
-<img src='./imgs/results_github_plots.png'  width="900" >
+<img src='./imgs/rclpod_results.png'  width="900" >
 
 ## Setup
 In addition to PyTorch, please follow the following steps:
